@@ -4,10 +4,10 @@ var btn = document.getElementById("myBtn");
 
 var span = document.getElementsByClassName("close")[0];
 
-btn.addEventListener('mouseover',()=>{
+btn.addEventListener('click',()=>{
   setTimeout(() => {
     modal.style.display = "block";
-    }, 2000);
+    }, 0);
 })
 
 span.onclick = function() {

@@ -7,23 +7,27 @@
 /**************The Modal (background) **************/
 .modal {
     display: none; 
-    position: fixed; 
+    /* position: fixed;  */
     z-index: 1; 
-    padding-top: 100px; 
+    /* padding-top: 100px;  */
     left: 0;
     top: 0;
-    width: 100%; 
+    /* width: 100%;  */
+    width: 350px;
     height: 100vh; 
-    overflow: auto;
+    /* height: 5000px; */
+    /* overflow: auto; */
+    margin-right: 800px;
   }
   
   /********************* Modal Content **************************/
   .modal-content {
+    height: 600px;
     border-radius: 20px;
-    height:393px;
+    /* height:393px; */
     margin: auto;
     padding: 20px 7px 16px 20px;
-    width: 40%;
+    /* width: 40%; */
     margin-bottom:50px;
   border: 5px solid rgb(73, 150, 238);
   background: #d5e7e3;
